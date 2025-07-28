@@ -1,21 +1,20 @@
-# Graduation-project-_DS
-# 🥗 Health Food & Calorie Recommendation System
+# 🥗 Health-Based Food & Heart Rate Recommendation System
 
-This project consists of two machine learning-based recommendation systems that help users make better food choices and estimate suitable calorie intake based on their health profile.
+This project includes two machine learning-based systems that assist users in making better food choices and understanding suitable heart rate levels based on their health profiles.
 
 ---
 
-## 📁 Files
+## 📁 Project Structure
 
-- `food_recommender.ipynb`  
-  👉 Recommends meals based on user’s health condition and available calorie intake.  
-  📊 Uses **KMeans Clustering** to group food items and suggest the most relevant ones.  
-  📂 Dataset: `food_data.csv`
+- **Notebook 1**:  
+  👉 Recommends meals based on the user's health condition and available nutritional needs.  
+  📊 Uses **KMeans Clustering** to group similar food items and suggest personalized options.  
+  📂 Works with a specific dataset for food items.
 
-- `calorie_predictor.ipynb`  
-  👉 Estimates the recommended daily calories for a person based on features like age, weight, and health status.  
-  🤖 Uses **SVM (Support Vector Machine)** for classification.  
-  📂 Dataset: `calorie_data.csv`
+- **Notebook 2**:  
+  👉 Predicts suitable heart rate range based on user-specific health factors (e.g., age, weight, condition).  
+  🤖 Uses **SVM (Support Vector Machine)** for classification and prediction.  
+  📂 Uses a separate dataset related to health and heart rate.
 
 ---
 
@@ -30,18 +29,17 @@ This project consists of two machine learning-based recommendation systems that 
 
 ## 🧠 Features
 
-- 🔍 **Health-Aware Meal Recommendations**: Suggests meals based on clustering similar nutritional profiles and user health conditions.
-- 🧮 **Personalized Calorie Prediction**: Uses machine learning to estimate how many calories a user should consume.
-- 📂 Each notebook works with its own dataset to ensure modularity and clarity.
+- 🍽️ **Health-Aware Meal Recommendations**: Clusters food items based on nutritional similarity and suggests appropriate meals.
+- ❤️ **Heart Rate Prediction**: Uses SVM to predict recommended heart rate ranges according to user input.
+- 🔄 Each notebook is modular and based on its own dataset for clarity and organization.
 
 ---
 
-## 📌 How to Run
+## 📌 How to Use
 
-1. Clone the repo or download the notebooks and datasets.
-2. Open `food_recommender.ipynb` or `calorie_predictor.ipynb` in Jupyter Notebook.
-3. Run all cells and follow the input prompts.
-4. Make sure the corresponding CSV files are in the same directory.
+1. Clone or download the repository.
+2. Open each notebook in Jupyter.
+3. Ensure the appropriate dataset files are in the same directory as the notebooks.
+4. Run all cells and follow the prompts for input.
 
 ---
-
